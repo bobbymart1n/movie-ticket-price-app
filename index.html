@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Movie Tickets</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form1">
+        <div class="form-group">
+        <select class="movie form-control">
+          <option value="5">Slaughterer 5</option>
+          <option value="5">Forgotten Love</option>
+          <option value="5">Barry's Adventure</option>
+        </select>
+        </div>
+        <div class="form-group ">
+        <select class="time form-control">
+          <option value="-1">Morning</option>
+          <option value="0">Day</option>
+          <option value="-1">Late Night</option>
+        </select>
+        </div>
+        <div class="form-group">
+        <select class="age form-control">
+          <option value="-1">Child</option>
+          <option value="0">Adult</option>
+          <option value="-1">Senior</option>
+        </select>
+        </div>
+        <button type="submit" name="button btn-success">Submit</button>
+      </form>
+      <h3>Your Ticket Price:</h3>
+      <div id="output">
+
+      </div>
+    </div>
+  </body>
+</html>
